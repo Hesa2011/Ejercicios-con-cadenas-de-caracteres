@@ -1,0 +1,12 @@
+
+caracteres = input("Ingrese un texto: ")
+print("El texto en mayúsculas es: ", caracteres.upper())
+
+print("El texto en minusculas es:", caracteres.lower())
+
+print("Los dos primeros caracteres del texto son:", caracteres[0:2])  
+print("Los dos ultimos caracteres del texto son:",caracteres[-2:])
+
+print("El numero de veces que se repite el ultimo caracter es:", caracteres.count(caracteres[-1]))
+print("El texto invertido es: ", caracteres[::-1])
+print("El resultado del texo invertido es: ", caracteres[::-1])
